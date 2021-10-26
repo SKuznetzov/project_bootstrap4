@@ -259,3 +259,57 @@ div[filter]:hover .text {
     background: #008976;
     border: none;
 }
+
+.team {
+    padding-top: 165px;
+    padding-bottom: 125px;
+    color: black;
+    background: #fff;
+    text-align: center;
+}
+
+.team h4 {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: 'Open Sans Semibold';
+}
+
+.team p {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icons a i {
+    transition: 0.3s;
+}
+
+.icons i:nth-chald(1) {
+    color: #f0f1f1;
+}
+
+.icons i:nth-chald(2) {
+    color: #00897b;
+}
+
+.icons a:hover i:nth-chald(1) {
+    color: #3949ab;
+}
+
+.icons a:hover i:nth-chald(2) {
+    color: #fff;
+}
+
+.team img {
+    margin: 0 auto;
+    max-width: 340px;
+}
+
+.multiple-items {
+    margin-top: 125px;
+    /* margin-bottom: 115px; */
+}
